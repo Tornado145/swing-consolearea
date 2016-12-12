@@ -23,6 +23,7 @@ public abstract class ConsoleThread extends Thread
     /**
      * Abstract methods that need to be implemented by all subclasses.
      */
+    @Override
     public abstract void run();
     public abstract boolean getActiveState();
     public abstract void startThread();
