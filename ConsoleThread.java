@@ -4,20 +4,11 @@
  * extend.
  * 
  * @author Vatsal Varma
- * @version v0.2
+ * @version v0.3
  */
 public abstract class ConsoleThread extends Thread
 {
-    private int threadNum = 0;
     protected static int UPDATE_TIME = 500;
-    
-    public ConsoleThread(){
-        threadNum++;
-    }
-    
-    public int getThreadNum(){
-        return threadNum;
-    }
     
     
      /**
